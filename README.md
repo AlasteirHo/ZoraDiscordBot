@@ -1,4 +1,4 @@
-# 🪙 Zora Coin Discord Bot
+# 🪙 Zora coin trading assistant Discord Bot
 
 A feature-rich Discord bot for discovering, analyzing, and interacting with Zora20 coins. It fetches real-time token data, profiles, comments, and more using the [Zora Labs Coins SDK](https://github.com/ourzora/coins-sdk) and supports Gemini AI responses for user queries.
 
