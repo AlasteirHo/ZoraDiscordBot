@@ -42,6 +42,7 @@ DISCORD_BOT_TOKEN=your_discord_token_here
 CLIENT_ID=your_discord_client_id_here
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
+Please request personally for the API keys as it is secretive (For demonstration only)
 
 ## 🚀 Running the Bot
 ```bash
