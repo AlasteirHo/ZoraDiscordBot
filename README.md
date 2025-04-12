@@ -34,3 +34,26 @@ A feature-rich Discord bot for discovering, analyzing, and interacting with Zora
 git clone https://github.com/AlasteirHo/ZoraDiscordBot.git
 cd ZoraDiscordBot
 npm install
+```
+## 🔑 Environment Variables
+Create an .env or api.env file in the root folder with the following:
+```bash
+DISCORD_BOT_TOKEN=your_discord_token_here
+CLIENT_ID=your_discord_client_id_here
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+##🚀 Running the Bot
+```bash
+node index.js
+```
+
+##🤖 Gemini Integration (Optional)
+The /zora command uses Gemini 2.0 via Google’s GenAI SDK.
+To enable it, ensure you set GEMINI_API_KEY in your environment file.
+
+##🛡 Commands Deployment
+To register all slash commands, ensure the bot is added to a Discord server and then run:
+```bash
+node index.js
+```
