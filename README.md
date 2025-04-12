@@ -43,16 +43,16 @@ CLIENT_ID=your_discord_client_id_here
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-##🚀 Running the Bot
+## 🚀 Running the Bot
 ```bash
 node index.js
 ```
 
-##🤖 Gemini Integration (Optional)
+## 🤖 Gemini Integration (Optional)
 The /zora command uses Gemini 2.0 via Google’s GenAI SDK.
 To enable it, ensure you set GEMINI_API_KEY in your environment file.
 
-##🛡 Commands Deployment
+## 🛡 Commands Deployment
 To register all slash commands, ensure the bot is added to a Discord server and then run:
 ```bash
 node index.js
